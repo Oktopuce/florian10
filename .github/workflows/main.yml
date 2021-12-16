@@ -43,7 +43,7 @@ jobs:
             mkdir -p ${{ secrets.DOCUMENT_ROOT }}/shared_assets/production
             mkdir -p ${{ secrets.DOCUMENT_ROOT }}/shared_assets/production/fileadmin
             mkdir -p ${{ secrets.DOCUMENT_ROOT }}/releases
-            mkdir -p ${{ secrets.DOCUMENT_ROOT }}/releases/production
+            mkdir -p ${{ secrets.DOCUMENT_ROOT }}/rehttps://dreamact.eu/fr/product/17456/sneaker-coton-bio-veganleases/production
 
       - name: Sync files to production
         uses: AEnterprise/rsync-deploy@v1.0
